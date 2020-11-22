@@ -41,3 +41,37 @@ Markdown und AsciiMath
     // Abschluss
     int d = x
     // Rückgabe von d
+
+## Aufgabe 02 klassischer Euklidischen Algorithmus
+
+    public class QuadratKlassisch{
+        public static void main(String[] args){
+    	int x =Integer.parseInt(args[0]);
+    	int sum = 0;
+    	int ungeradeZahl = 1;
+    	if(x<0){
+    	    x =x*-1;
+    	}
+    	for(int i=1; i<=x; i++){
+    	    sum = sum + ungeradeZahl;
+    	    ungeradeZahl = ungeradeZahl +2;
+    	}
+    	System.out.println(sum);
+        }
+    }
+
+## Aufgabe 02 moderner Euklidischen Algorithmus
+
+    public class QuadratModern{
+        public static void main(String[] args){
+    	int anzahlUngeradenZahlen = Integer.parseInt(args[0]);
+    	int quadrat = 0;
+    	int nextUngeradeZahl = 1;
+    	while (anzahlUngeradenZahlen != 0){
+    	   quadrat += nextUngeradeZahl;
+    	   nextUngeradeZahl += 2;
+    	   anzahlUngeradenZahlen--;
+    	}
+    	System.out.println( quadrat );
+        }
+    }

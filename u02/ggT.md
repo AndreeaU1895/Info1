@@ -26,18 +26,18 @@ Markdown und AsciiMath
 
 ## Euklidischer Algorithmus in Java
 
-// Eklidischer Algorithmus (klassisch)
-// Eingabe von a und b
-// Initialisierung
-int x = a;
-int y = b;
-// Iteration
-while (y != 0) { // ’!=’ steht fuer ’ungleich’
-if (x > y)
-x = x - y;
-else
-y = y - x;
-}
-// Abschluss
-int d = x
-// Rückgabe von d
+    // Eklidischer Algorithmus (klassisch)
+    // Eingabe von a und b
+    // Initialisierung
+    int x = a;
+    int y = b;
+    // Iteration
+    while (y != 0) { // ’!=’ steht fuer ’ungleich’
+    if (x > y)
+    x = x - y;
+    else
+    y = y - x;
+    }
+    // Abschluss
+    int d = x
+    // Rückgabe von d

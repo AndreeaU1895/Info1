@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>So 22. Nov 22:03:51 CET 2020 Markdown/AsciiMath to HTML/PDF (by marked/wkhtmltopdf)</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  asciimath2jax: {
+    delimiters: [['`','`'], ['$','$']]
+  }
+});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="markdown-body">
+  <div id="content"></div>
+  <script>
+    document.getElementById('content').innerHTML =
+marked('# Informatik I\n\nCarsten Damm, Wintersemester 19/20\n\n## 1.2 Problem, Algorithmus, Programm\n\n### 1.2-2 Gute und schlechte Spezifikationen\n\n**Erster Schritt zur Lösung eines Problems ist eine gute Spezifikation:**\n\n- unzweideutig,\n- vollständig und\n- (idealerweise) einfach und kurz\n\n*Beispiel für unzureichende Spezifikation*\n\n**gesucht** Lösungen der Gleichung $a_2 * x^2 + a_1 * x + a_0 = 0$\n\nWelche Größen sind gegegeben? Was sind die Wertebereiche?\nWie ist mit Sonderfällen (z.B. keine reelle Lösung) zu verfahren?\n\n*Besser:*\n\n**gegeben** drei Koeffizienten $a_0, a_1, a_2 in RR$\n\n**gesucht** alle reellen oder komplexen Werte $x$\nmit $a_2 * x^2 + a_1 * x + a_0 = 0$\n\n\n### 1.2-3 Noch ein Beispiel\n\n*Exakte Berechnung von Binomialkoeffizienten*\n\n**gegeben** nichtnegative ganze Zahlen $n$ und $k$ mit $n ge k$,\n\n**gesucht** der exakt berechnete Binomialkoeffizient $((n),(k))$\n\n**Signatur**\n\n    int binom( int, int)\n\n**Fehlerfall** Ist $k$ größer als $n$ oder liegt der\nexakte Binomialkoeffizient nicht im Wertebereich `int`,\nso wird Ergebnis $-1$ geliefert.');
+
+  </script>
+</body>
+</html>
+
+</body>
+</html>

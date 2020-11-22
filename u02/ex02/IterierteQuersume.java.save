@@ -1,0 +1,16 @@
+public class IterierteQuersume{
+   public static void main(String[] args){	
+	int a = Integer.parseInt(args[0]);
+	if (a<0){
+	   System.out.println("nur positive Zahlen");
+	   return;
+	}
+	while( a > 9 ) {
+	   while( a != 0) {
+		a = itQuersum + ( a % 10 );
+		a = a / 10;
+	   }
+	}
+	System.out.println(itQuersum);
+   }
+}

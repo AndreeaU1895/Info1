@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>So 22. Nov 22:53:43 CET 2020 Markdown/AsciiMath to HTML/PDF (by marked/wkhtmltopdf)</title>
+  <title>So 22. Nov 23:00:51 CET 2020 Markdown/AsciiMath to HTML/PDF (by marked/wkhtmltopdf)</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML"></script>
   <script type="text/x-mathjax-config">
@@ -18,7 +18,7 @@ MathJax.Hub.Config({
   <div id="content"></div>
   <script>
     document.getElementById('content').innerHTML =
-marked('Markdown/AciiMath to HTML/PDF (by pandoc/wkhtmltopdf)\n# Informatik I, Übung 02, Aufgabe 2\nMarkdown und AsciiMath\n## Größter gemeinsamer Teiler (ggT)\n\n### Das ggT-Problem\n**Gegeben.**  Zwei positive ganze Zahlen *a,b* ∈ Z mit *a,b* > 0.\n- *d* teil *a* und *b* ohne Rest\n- es gibt keine ganze Zahl *d\'* ∈ Z mit *d\'>d*,  die *a* und *b* ohne Rest teilt\n\n### Der Euklidischer Algorithmus (klassisch)\n\n**Eingabe.** zwei ganze Zahlen *a*,*b* mit *a* >*b* ≥ 0\n\n**Initialisierung.** *x*← *a*, *y* ← *b*\n\n**Iteration.**  wiederhole das Folgende solange *y* ≠ 0 gilt\n- falls (*x*>*y*) dann *x* ← *x* - *y*\n- sonst *y* ← *y* -*x*\n\n**Abschluss.** *d* ← *x*\n\n**Rückgabe.** *d*\n\n*Hinweis.* *A* ← *B* steht für: speichere aktuellen Wert von *B* in *A* .\n\n## Euklidischer Algorithmus in Java\n\n// Eklidischer Algorithmus (klassisch)\n// Eingabe von a und b\n// Initialisierung\nint x = a;\nint y = b;\n// Iteration\nwhile (y != 0) { // ’!=’ steht fuer ’ungleich’\nif (x > y)\nx = x - y;\nelse\ny = y - x;\n}\n// Abschluss\nint d = x\n// Rückgabe von d\n');
+marked('Markdown/AciiMath to HTML/PDF (by pandoc/wkhtmltopdf)\n# Informatik I, Übung 02, Aufgabe 2\nMarkdown und AsciiMath\n## Größter gemeinsamer Teiler (ggT)\n\n### Das ggT-Problem\n**Gegeben.**  Zwei positive ganze Zahlen *a,b* ∈ Z mit *a,b* > 0.\n- *d* teil *a* und *b* ohne Rest\n- es gibt keine ganze Zahl *d\'* ∈ Z mit *d\'>d*,  die *a* und *b* ohne Rest teilt\n\n### Der Euklidischer Algorithmus (klassisch)\n\n**Eingabe.** zwei ganze Zahlen *a*,*b* mit *a* >*b* ≥ 0\n\n**Initialisierung.** *x*← *a*, *y* ← *b*\n\n**Iteration.**  wiederhole das Folgende solange *y* ≠ 0 gilt\n- falls (*x*>*y*) dann *x* ← *x* - *y*\n- sonst *y* ← *y* -*x*\n\n**Abschluss.** *d* ← *x*\n\n**Rückgabe.** *d*\n\n*Hinweis.* *A* ← *B* steht für: speichere aktuellen Wert von *B* in *A* .\n\n## Euklidischer Algorithmus in Java\n\n    // Eklidischer Algorithmus (klassisch)\n    // Eingabe von a und b\n    // Initialisierung\n    int x = a;\n    int y = b;\n    // Iteration\n    while (y != 0) { // ’!=’ steht fuer ’ungleich’\n    if (x > y)\n    x = x - y;\n    else\n    y = y - x;\n    }\n    // Abschluss\n    int d = x\n    // Rückgabe von d\n');
 
   </script>
 </body>

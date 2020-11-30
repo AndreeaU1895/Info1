@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mo 30. Nov 09:31:06 CET 2020 Markdown/AsciiMath to HTML/PDF (by marked/wkhtmltopdf)</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  asciimath2jax: {
+    delimiters: [['`','`'], ['$','$']]
+  }
+});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="markdown-body">
+  <div id="content"></div>
+  <script>
+    document.getElementById('content').innerHTML =
+marked('Markdown/AciiMath to HTML/PDF (by pandoc/wkhtmltopdf)\n\n# Informatik I, Übung 01, Aufgabe 1\n\nMarkdown und AsciiMath\n\n### Osterdatum nach Gauß\n\n**Gegeben.** Zahl des Jahres *Jahr*∈ N, > 0 und die natürliche Zahlen (∈ N) *x*, *y*, *z* > 0\n**Gesucht.** die  Reste der Divisionen *a, b, c, d, e* = 0\n- *Jahr* teilt *x*, *y*, *z*\n- auf die Quotienten wird gar keine Rücksicht aufgenommen\n\n### Osterformel nach Gauß \n\n**Eingabe.** vier natürliche Zahlen *Jahr*, *x*, *y*, *z* > 0\n\n**Initialisierung.** *x* ← 19, *y* ← 4, *z* ← 7, *Jahr* ← 2020, *a* = *Jahr* % 19\n                      *b* = *Jahr* % 4, *c* = *Jahr* % 7\n\n**Ablauf.** *d* = (19*a* + 23) % 30, \n             \n             - falls (*Jahr* / 100 % 2 = 1) dann *e* ← (2*b* + 4*c* + 6*d* + 3) % 7\n             - sonst *e*  ← (2*b* + 4*c* + 6*d* + 4) % 7\n             \n            \n**Abschluss** falls *d* + *e* > 9 dann April ← *d* + *e* - 9\n              sonst März ← 22 + *d* + *e* \n\n              \n              \n\n**Rückgabe*  *datum*\n\n\n\n');
+
+  </script>
+</body>
+</html>
+
+</body>
+</html>

@@ -30,7 +30,7 @@ Markdown und AsciiMath
               
               
 
-**Rückgabe*  *datum*
+**Rückgabe**    *datum*
 
 
 

@@ -9,8 +9,8 @@ Nachfolgend sind die drei der vorstehenden Codezeilen aufgelistet,
 die der Java-Compiler nicht akzeptiert,
 jeweils mit einer Beschreibung des Fehlers.
 
-* Zeile 1 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n1 zu groß für Integer ist
-* Zeile 2 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n2 zu groß für Integer ist
+* Zeile 1 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n1 ist zu groß für Integer 
+* Zeile 2 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n2 ist zu groß für Integer 
 * Zeile 4 , Fehler: Inkompatible Typen, eine Lösung wäre möglich, wenn float zu long konvertiert würde
 
 ---
@@ -25,3 +25,15 @@ jeweils mit einer Beschreibung des Fehlers.
 Von den vorstehenden Codezeilen akzeptiert der Java-Compiler die Zeile 3 nicht, weil die gegebene Zahl n3 zu groß für Integer ist
 
 Die anderen Zeilen sind richtig, weil ... 
+
+
+
+
+
+
+
+
+## Aufgabe 1 - Codierung von Sprachen
+
+1. 
+ a) 2^n

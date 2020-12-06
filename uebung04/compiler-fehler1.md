@@ -10,7 +10,7 @@ die der Java-Compiler nicht akzeptiert,
 jeweils mit einer Beschreibung des Fehlers.
 
 * Zeile 1 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n1 ist zu groß für Integer 
-* Zeile 2 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n2 ist zu groß für Integer 
+* Zeile 2 , Fehler: Integer Zahl ist zu groß/ die gegebene Zahl n2 ist zu groß für long 
 * Zeile 4 , Fehler: Inkompatible Typen, eine Lösung wäre möglich, wenn float zu long konvertiert würde
 
 ---
@@ -24,7 +24,7 @@ jeweils mit einer Beschreibung des Fehlers.
 
 Von den vorstehenden Codezeilen akzeptiert der Java-Compiler die Zeile 3 nicht, weil die gegebene Zahl n3 zu groß für Integer ist
 
-Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden und andere Mittel benutzt wie, z.B (int), .(in n1), f(in n2), e0 (in n4) um float, double, long in integer zu umwandeln, um das Kompilieren zu ermoeglichen.
+Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden und andere Mittel benutzt wie, z.B (int) (zu Integer zu konvertieren), . (in n1), f (in n2), e0 (in n4) um float, double, long in integer zu umwandeln, um das Kompilieren zu ermoeglichen.
 
 
 
@@ -44,7 +44,7 @@ Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden un
     
  *b)* es gibt $22^2$ Paarkombinationen, das bedeutet $22^2$ = 484, dafür werden 9 bits benötigt, da $2^8$ =256 ist zu klein, $2^9$ = 512 > 484
  
- *c)* wenn 100 Glyphen einzeln kodiert werden, bekommt man 100 * 5 = 500 bits, wenn aber werden sie in Paare kodiert werden 450 bits benötigt, also weniger als             500. Berechnungen mit großeren Zhlen können schneller duchgefürt werden, die Datenmengen können schneller verarbeitet werden.
+ *c)* wenn 100 Glyphen einzeln kodiert werden, bekommt man 100 * 5 = 500 bits, wenn aber werden sie in Paare kodiert werden 450 bits benötigt, also weniger als             500. Berechnungen mit großeren Zahlen können schneller duchgefürt werden, die Datenmengen können schneller verarbeitet werden.
  
  
  2.

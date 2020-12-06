@@ -33,10 +33,13 @@ Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden un
 
 
 
+
+
+
 ## Aufgabe 1 - Codierung von Sprachen
 
 1. 
- *a)* $2^n$ ist für binäre Zahlen Anzahl der Kodierungsmöglichkeiten
+ *a)* $2_n$ ist für binäre Zahlen Anzahl der Kodierungsmöglichkeiten
       2^2 = 4 ist zu klein, 2^4 =16 < 22 ist zu klein, 2^5 = 32 > 22, das bedeutet, dass es werden 5 Bits benötigt
     
  *b)* es gibt 22^2 Paarkombinationen, das bedeutet 22^2 = 484, dafür werden 9 bits benötigt, da 2^8 =256 ist zu klein, 2^9 = 512 > 484

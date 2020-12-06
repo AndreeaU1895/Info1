@@ -48,6 +48,7 @@ Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden un
  
  
  2.
+ 
  *a)* zu den 22 Glyphen kommen noch 4 Zeichnen = 26. Dazu werden weiter wie bei der Aufgabe 1 a) 5 bits benötigt, da $2^5$ > 26
  
  *b)* $22^2$ wird weiter die Anzahl der Paarkombinationen bleiben. Die '-Glyphe kann nur die zweite Glyphes eines Paars sein und das bedeutet, dass es wäre nicht möglich dass 2 '-Glyphen ein Paar bilden.Also werden die Zahlglyphen und '-Glyphen einzeln kodiert. ($22^2$ -22-2+4+1=467)

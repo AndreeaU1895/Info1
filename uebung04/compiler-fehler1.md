@@ -44,7 +44,7 @@ Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden un
     
  *b)* es gibt $22^2$ Paarkombinationen, das bedeutet $22^2$ = 484, dafür werden 9 bits benötigt, da $2^8$ =256 ist zu klein, $2^9$ = 512 > 484
  
- *c)* wenn 100 Glyphen einzeln kodiert werden, bekommt man 100 * 5 = 500 bits, wenn aber werden sie in Paare kodiert werden 450 bits benötigt, also weniger als             500.Berechnungen mit großeren Yhlen können schneller duchgefürt werden, die Datenmengen können schneller verarbeitet werden.
+ *c)* wenn 100 Glyphen einzeln kodiert werden, bekommt man 100 * 5 = 500 bits, wenn aber werden sie in Paare kodiert werden 450 bits benötigt, also weniger als             500. Berechnungen mit großeren Zhlen können schneller duchgefürt werden, die Datenmengen können schneller verarbeitet werden.
  
  
  2.
@@ -55,7 +55,7 @@ Die anderen Zeilen sind richtig, weil sie werden kompiliert, außerdem werden un
  *c)* die Codierung eines Textes mit der Methode aus Aufgabenteil 2b) ist in jedem Fall nicht besser als die Codierung mit der Methode aus
 Aufgabenteil 2a), weil es kann passieren dass, ein Text nur aus Zahlen und ' besteht. 
 
- *d)*  Paare: $4^2$ = 16 Moeglichkeiten$, Zaichen und '-Glyphen als Paaren 4 Moeglichkeiten,  Tripel 16  Moeglichkeiten
+ *d)*  Paare: $4^2$ = 16 Moeglichkeiten, Zaichen und '-Glyphen als Paaren 4 Moeglichkeiten,  Tripel 16  Moeglichkeiten
 
  *e)* Es gibt Zahlenkombinationen mit 5 Glyphen. Nach Aufgabe a) würde jede dieser Glyphen 5 bits brauchen, insgesamnt 25. In Aufgabe d) gibt es Zahlenpaare und Tripel mit Zahlen und '-Glyphen welche diese Kombinationen abdecken, deshalb werden nur 18 bits benötigt.
 

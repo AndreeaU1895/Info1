@@ -54,5 +54,5 @@ Aufgabenteil 2a), weil es kann passieren dass, ein Text nur aus Zahlen und ' bes
 
  *d)*  Paare: 4^2 = 16 Moeglichkeiten, Zaichen und '-Glyphen als Paaren 4 Moeglichkeiten,  Tripel 16  Moeglichkeiten
 
- ##e)## Es gibt Zahlenkombinationen mit 5 Glyphen. Nach Aufgabe a) würde jede dieser Glyphen 5 bits brauchen, insgesamnt 25. In Aufgabe d) gibt es Zahlenpaare und Tripel mit Zahlen und '-Glyphen welche diese Kombinationen abdecken, deshalb werden nur 18 bits benötigt.
+ *e)* Es gibt Zahlenkombinationen mit 5 Glyphen. Nach Aufgabe a) würde jede dieser Glyphen 5 bits brauchen, insgesamnt 25. In Aufgabe d) gibt es Zahlenpaare und Tripel mit Zahlen und '-Glyphen welche diese Kombinationen abdecken, deshalb werden nur 18 bits benötigt.
 

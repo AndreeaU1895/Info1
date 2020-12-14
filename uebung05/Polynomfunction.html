@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mo 14. Dez 20:48:07 CET 2020 Markdown/AsciiMath to HTML/PDF (by marked/wkhtmltopdf)</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  asciimath2jax: {
+    delimiters: [['`','`'], ['$','$']]
+  }
+});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="markdown-body">
+  <div id="content"></div>
+  <script>
+    document.getElementById('content').innerHTML =
+marked('# Aufgabe 1\n \n1. Für den obigen Algorithmus benötigt man $n$ Additionen und $n+(n(n+1)(2n+1))/6$ Multiplikationen, denn man addiert jeder Mitglied des Polynoms $n$-mal und man berechnet jede Potenz mit dem Formel $sum_(i=0)^N i²$. Dann gibt es auch $n$ für die Koeffizienten-Multiplikation.\n\n2. a) Wir wissen dass $n²$ gleich mit der Summe der ungeraden Zahlen bis einem Indizes ist, deswegen können wir das Polynom folgendes mit dem Horner Schema  schrieben: \n  $(...(a_nx^(2n-1)+a_(n-1))x^(2n-3)+a_(n-2))...)x+a_0$ \n   \n   b) Mit dem Ergebnbis von 2 a) berechnet man effizienter das Polynom, weil man nicht die Quadrat jeder Potenz berechnen muss. Das impliziert, dass die Nummer der Multiplikationen kleiner ist. Ein Beispiel wäre für $n=3$, wenn man $17$ Multiplikationen mit dem classichen Algorithmus im Vergleich zu $12$ macht.\n   \n   c) \n   \n    \n     \n         q=1;\n     for(i=n;i>0;i--)\n      {\n       potenz=0;\n         for(j=1;j<2*i-1;i--)\n          potenz=potenz*x;\n        q=a[i]*potenz+a[i-1]+q;\n       a[i-1]=q;\n       }\n    \n -----   \n    \n    \n  d) Der verbesserte Algorithmus berechnet das Polynom mit einer Komplexität von O($n²$) und macht $n(n+1)$ Multiplikationen und $n-1$ Additionen.\n    \n    \n3. a) Mit dem Hinweis  können wir jede Potenz in Bezug auf die vorherige Potenz berechnen. Zusätzlich, wissen wir dass die Differenz zwischen $n^2-n^(n-1)$ glecih $2n-1$ ist.\nZum Beispiel, können wir $(x^3)^2$ als $(x^2)^2$ mal $(x^2)^(3*2-1)$\n   \n   b)\n   \n     #Codeblock \n     \n     \n        q=x[0]+x[1]*x;\n        lastpotenz=x;\n        for(i=2;i<=n;i++)\n       {\n        potenz=1;\n        for(j=1;j<2*i-1;i--)\n         potenz=lastpotenz*x;\n        lastpotenz=potenz \n        q=a[i]*potenz+q;\n       \n       } \n   \n  ----\n   c) Diese verbesserte Version macht insgesamt $n$ Additionen und $(3n+1+n*(n+1))$ Multiplikationen.\n');
+
+  </script>
+</body>
+</html>
+
+</body>
+</html>

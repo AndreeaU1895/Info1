@@ -24,7 +24,7 @@
  -----   
     
     
-    d) Der verbesserte Algorithmus berechnet das Polynom mit einer Komplexität von O($n²$) und macht $n(n+1)$ Multiplikationen und $n-1$ Additionen.
+  d) Der verbesserte Algorithmus berechnet das Polynom mit einer Komplexität von O($n²$) und macht $n(n+1)$ Multiplikationen und $n-1$ Additionen.
     
     
 3. a) Mit dem Hinweis  können wir jede Potenz in Bezug auf die vorherige Potenz berechnen. Zusätzlich, wissen wir dass die Differenz zwischen $n^2-n^(n-1)$ glecih $2n-1$ ist.
